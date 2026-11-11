@@ -60,10 +60,471 @@
 
 
 
- /* header section end */
+ /* baner style section start */
+ #banerpart {
+   background-color: #F9F9FC;
+   text-align: center;
+ }
+
+ .banercontent {
+   margin: 75px 0px;
+ }
+
+ .banerimg {
+   padding-top: 16px;
+   padding-bottom: 44px;
+ }
+
+ .banercontent {
+   padding: 120px 0px;
+ }
+
+ .banercontent h5 {
+   font-weight: 400px;
+   font-size: 16px;
+   line-height: 26px;
+   color: #5E3BEE;
+
+ }
+
+ .banercontent h1 {
+   font-weight: 700px;
+   font-size: 46px;
+   line-height: 78px;
+   color: #333333;
+   width: 398px;
+   margin: 32px 0px;
+ }
+
+ .banerbtn .CONTACTbtn {
+   background-color: #5E3BEE;
+   color: #ffffff;
+   padding: 23px 38px;
+   border-radius: 50px;
+   margin-right: 23px;
+ }
+
+ .banerbtn .CONTACTbtn:hover {
+   background: transparent;
+   color: #333333;
+
+ }
+
+ .banerbtn .dawnloadbtn {
+   background-color: #5E3BEE;
+   color: #ffffff;
+   padding: 23px 38px;
+   border-radius: 50px;
+ }
+
+ .banerbtn .dawnloadbtn:hover {
+   background: transparent;
+   color: #333333;
+ }
+
+ /* baner style section end*/
+
+
+
  /* header section starts*/
- /* header section end */
- /* header section starts*/
- /* header section end */
- /* header section starts*/
- /* header section end */
+ #contenarpart {
+   padding: top 93px;
+   ;
+   padding-bottom: 79px;
+ }
+
+ .container {
+   margin-top: 90px;
+ }
+
+ .counterinfo {
+   text-align: center;
+ }
+
+ /* header section end*/
+
+
+
+ /* service section style start */
+ #servicePart {
+   padding: 70px 0;
+ }
+
+ .serviceCard {
+   background: #fff;
+   text-align: center;
+   padding: 40px 30px;
+   border-radius: 10px;
+   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+   margin-bottom: 30px;
+   transition: transform .3s;
+ }
+
+ .serviceCard:hover {
+   transform: translateY(-8px);
+ }
+
+ .serviceCard i {
+   font-size: 30px;
+   color: #5E3BEE;
+   margin-bottom: 20px;
+ }
+
+ .serviceCard h4 {
+   font-weight: 600;
+   font-size: 18px;
+   color: #333333;
+   margin-bottom: 12px;
+ }
+
+ .serviceCard p {
+   font-size: 13px;
+   line-height: 22px;
+   color: #666666;
+ }
+
+ /* service section style end */
+
+ /* about section style start */
+ #aboutPart {
+   background: #F8F9FC;
+   padding: 80px 0;
+ }
+
+ .aboutImg img {
+   max-width: 100%;
+ }
+
+ .aboutContent span {
+   font-size: 12px;
+   font-weight: 500;
+   letter-spacing: 2px;
+   color: #5E3BEE;
+ }
+
+ .aboutContent h2 {
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 44px;
+   color: #333333;
+   margin: 10px 0 16px;
+ }
+
+ .aboutContent p {
+   font-size: 14px;
+   line-height: 24px;
+   color: #666666;
+   margin-bottom: 20px;
+ }
+
+ .aboutContent ul {
+   margin-bottom: 30px;
+ }
+
+ .aboutContent ul li {
+   font-size: 14px;
+   color: #333333;
+   margin-bottom: 10px;
+ }
+
+ .aboutContent ul li i {
+   color: #5E3BEE;
+   margin-right: 8px;
+ }
+
+ .aboutBtn {
+   background: #5E3BEE;
+   color: #fff;
+   padding: 14px 28px;
+   border-radius: 50px;
+   font-size: 14px;
+   font-weight: 500;
+   display: inline-block;
+   border: 1px solid #5E3BEE;
+ }
+
+ .aboutBtn:hover {
+   background: transparent;
+   color: #5E3BEE;
+ }
+
+ /* about section style end */
+
+ /* clients section style start */
+ #clientsPart {
+   padding: 50px 0;
+ }
+
+ .clientLogo {
+   font-size: 20px;
+   font-weight: 600;
+   color: #B5B5B5;
+   padding: 15px 0;
+ }
+
+ .clientLogo i {
+   margin-right: 6px;
+ }
+
+ /* clients section style end */
+
+ /* portfolio section style start */
+ #portfolioPart {
+   padding: 70px 0;
+ }
+
+ .workItem {
+   height: 260px;
+   border-radius: 10px;
+   margin-bottom: 30px;
+   position: relative;
+   overflow: hidden;
+   display: flex;
+   align-items: flex-end;
+ }
+
+ .workOne {
+   background: linear-gradient(135deg, #5E3BEE, #9b84f5);
+ }
+
+ .workTwo {
+   background: linear-gradient(135deg, #0a462d, #1e6e4b);
+ }
+
+ .workThree {
+   background: linear-gradient(135deg, #333333, #6b6b6b);
+ }
+
+ .workInfo {
+   width: 100%;
+   padding: 20px;
+   color: #fff;
+   background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+ }
+
+ .workInfo h5 {
+   font-weight: 600;
+   font-size: 18px;
+ }
+
+ .workInfo p {
+   font-size: 13px;
+ }
+
+ /* portfolio section style end */
+
+ /* testimonial section style start */
+ #testimonialPart {
+   background: #F8F9FC;
+   padding: 70px 0;
+ }
+
+ .testimonialCard {
+   background: #fff;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+   margin-bottom: 30px;
+ }
+
+ .testimonialCard .stars i {
+   color: #F5B400;
+   font-size: 14px;
+   margin-right: 3px;
+ }
+
+ .testimonialCard>p {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 24px;
+   color: #333333;
+   margin: 16px 0 24px;
+ }
+
+ .clientInfo {
+   display: flex;
+   align-items: center;
+   gap: 14px;
+ }
+
+ .clientInfo .avatar {
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   background: #5E3BEE;
+ }
+
+ .clientInfo h6 {
+   font-weight: 600;
+   font-size: 14px;
+   margin: 0;
+   color: #333333;
+ }
+
+ .clientInfo span {
+   font-size: 12px;
+   color: #666666;
+ }
+
+ .clientInfo>i {
+   margin-left: auto;
+   font-size: 20px;
+   color: #5E3BEE;
+ }
+
+ /* testimonial section style end */
+
+ /* cta section style start */
+ #ctaPart {
+   padding: 70px 0;
+ }
+
+ .ctaBox {
+   background: #5E3BEE;
+   border-radius: 16px;
+   text-align: center;
+   padding: 60px 30px;
+ }
+
+ .ctaBox h2 {
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 44px;
+   color: #fff;
+   margin-bottom: 12px;
+ }
+
+ .ctaBox p {
+   font-size: 14px;
+   color: rgba(255, 255, 255, 0.85);
+   margin-bottom: 28px;
+ }
+
+ .ctaBtn {
+   background: #fff;
+   color: #5E3BEE;
+   padding: 14px 28px;
+   border-radius: 50px;
+   font-size: 14px;
+   font-weight: 600;
+   display: inline-block;
+   border: 1px solid #fff;
+ }
+
+ .ctaBtn:hover {
+   background: transparent;
+   color: #fff;
+ }
+
+ /* cta section style end */
+
+ /* footer section style start */
+ #footerPart {
+   background: #000;
+   color: #fff;
+   padding: 70px 0 0;
+ }
+
+ .footerInfo {
+   margin-bottom: 30px;
+ }
+
+ .footerLogo {
+   font-weight: 600;
+   font-size: 18px;
+   color: #fff;
+   display: inline-block;
+   margin-bottom: 16px;
+ }
+
+ .footerLogo i {
+   color: #5E3BEE;
+   margin-right: 6px;
+ }
+
+ .footerInfo h5 {
+   font-weight: 600;
+   font-size: 16px;
+   margin-bottom: 18px;
+   color: #fff;
+ }
+
+ .footerInfo p,
+ .footerInfo ul li {
+   font-size: 14px;
+   line-height: 24px;
+   color: #BDBDBD;
+ }
+
+ .footerInfo ul li {
+   margin-bottom: 8px;
+ }
+
+ .footerInfo ul li i {
+   color: #5E3BEE;
+   margin-right: 8px;
+ }
+
+ .footerInfo ul li a {
+   color: #BDBDBD;
+ }
+
+ .footerInfo ul li a:hover {
+   color: #fff;
+ }
+
+ .footerSocial {
+   margin-top: 16px;
+ }
+
+ .footerSocial a {
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+   border: 1px solid #333;
+   color: #fff;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 8px;
+   font-size: 14px;
+ }
+
+ .footerSocial a:hover {
+   background: #5E3BEE;
+   border-color: #5E3BEE;
+ }
+
+ .footerBottom {
+   border-top: 1px solid #222;
+   text-align: center;
+   padding: 22px 0;
+   margin-top: 20px;
+ }
+
+ .footerBottom p {
+   font-size: 13px;
+   color: #BDBDBD;
+ }
+
+ /* footer section style end */
+
+ /* responsive start */
+ @media (max-width: 991px) {
+   .bannerContent {
+     text-align: center;
+     margin-bottom: 40px;
+   }
+
+   .bannerContent h1 {
+     margin: 24px auto;
+     font-size: 36px;
+     line-height: 48px;
+   }
+
+   .headerBtn {
+     margin-top: 10px;
+   }
+ }
+
+ /* responsive end */
